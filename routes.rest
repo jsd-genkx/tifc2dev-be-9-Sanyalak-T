@@ -6,6 +6,7 @@ GET http://localhost:3000/books?genre=Fiction
 
 ###! Get books by non-existent genre
 GET http://localhost:3000/books?genre=Dystopian
+# GET http://localhost:3000/books?genre=business
 
 ###! Get a specific book by ID
 GET http://localhost:3000/books/1
